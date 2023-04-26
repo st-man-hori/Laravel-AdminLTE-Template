@@ -1,0 +1,30 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "files.exclude": {
+    "vendor/": true,
+    "node_modules/": true,
+    "storage/app/public/": true
+  },
+  "php.validate.executablePath": "path/to/php",
+  "php.intelephense.environment.phpVersion": "8.1",
+  "php.suggest.basic": false,
+  "php.intelephense.completion.fullyQualifiedNames": true,
+  "php.intelephense.files.exclude": [
+    "**/.vscode/**",
+    "**/node_modules/**",
+    "**/vendor/**"
+  ],
+  "php.intelephense.format.braces": "k&r",
+  "php.intelephense.diagnostics.undefinedSymbols": false,
+  "phpcs.executablePath": "path/to/phpcs",
+  "phpcs.standard": "PSR12",
+  "phpcbf.executablePath": "path/to/phpcbf",
+  "phpcbf.standard": "PSR12",
+  "editor.codeActionsOnSaveTimeout": 1500,
+  "blade.format.enable": true
+}
